@@ -21,8 +21,10 @@ public class Ejemplo04 {
         int[] arreglo1 = new int[5];
         // int[] arreglo1 = {1000, 1, 2, 2000, 300};
         // System.out.println(arreglo1.length);
-        arreglo1[2] = 1000;
-        for (int i = 0; i < arreglo1.length; i++) {
+        arreglo1[2] = 1000;// en este arreglo de 5 elementos tiene 4 arreglos ya 
+        //que se inicia en 0
+        for (int i = 0; i < arreglo1.length; i++) {//length asociado a un arreglo
+            //me da el numero de elementos que tiene el arreglo asosciado 
             System.out.printf("Subíndice o Índice %d, con valor %d\n",
                     i, arreglo1[i]);
         }
